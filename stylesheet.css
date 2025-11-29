@@ -2,10 +2,10 @@
 /* All */
 
 * {font-family: sans-serif;}
-h5 {font-size: 250%; margin-top: 0px; padding-bottom: 15px; padding-bottom: 2%; }
+h5 {font-size: 225%; margin-top: 0px; padding-bottom: 15px; padding-bottom: 2%; }
 h4 {margin-top: 0px;padding-bottom: 7.5px;}
 h3 {margin-bottom: 0px; font-size: 125%;}
-h1 {font-size: 500%; margin-bottom: 0; margin-top: 0; margin-left: 0;}
+h1 {font-size: 600%; margin-bottom: 0; margin-top: 0; margin-left: 0;}
 pre {margin: 0; padding: 0;}
 video {object-fit: cover; padding-top: 10px; padding-bottom: 2.0%;}
 
@@ -17,7 +17,7 @@ video {object-fit: cover; padding-top: 10px; padding-bottom: 2.0%;}
 .dropdownNav{
     background-color: rgb(187, 187, 187);
     margin-left: 750px;
-    cursor:pointer;
+    
     position:absolute;
     display:inline-block;
 }
@@ -26,10 +26,13 @@ video {object-fit: cover; padding-top: 10px; padding-bottom: 2.0%;}
         padding: 16px;
         padding-top: 8px;
         padding-bottom: 8px;
-    
+        border: 0;
+        cursor:pointer;
+        
     }
         .dropdownButtonNav:hover, .dropdownButtonNav:focus{
             background-color: #d3d3fd;
+            
         
         }
             .dropdownContent{
@@ -52,10 +55,9 @@ video {object-fit: cover; padding-top: 10px; padding-bottom: 2.0%;}
 
 
 
+
 /* Random */
 
 .mainDiv{
     background-color: rgb(187, 187, 187);
 }
-
-
