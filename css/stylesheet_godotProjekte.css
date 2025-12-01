@@ -1,0 +1,80 @@
+/* All */
+
+* {font-family: sans-serif;}
+
+/* title */
+.titleMain{
+    text-align: center;
+    font-size: xxx-large;
+    color: rgb(98, 137, 204)
+}
+    .hide{
+        display: none !important;
+    }
+    .projekt1Title{
+        display: block;
+        color: white;
+        text-align: center;
+    }
+    .projekt2Title{
+        display: block;
+        color: white;
+        text-align: center;
+    }
+ 
+    
+
+/* body */
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: rgba(54, 61, 74)
+    
+}
+
+/* navBar */
+
+.navDiv{
+    
+    
+
+}
+    .navBarList{
+        
+        
+        
+
+        display:block;
+
+        list-style: none;
+        overflow: hidden;
+
+        margin: 0;
+        padding: 0;
+
+        color: white;
+        background-color: rgb(81, 91, 110)
+        
+        
+    }
+        .navBarProjectsP{
+
+            border-right: 2px solid rgba(54, 61, 74);
+            
+            float: left;
+            padding: 10px;
+            
+            background-color: rgb(81, 91, 110);
+            font-size: large;
+
+           
+
+        
+        }
+        .navBarProjectsP:hover{
+            background-color: rgb(96, 108, 131);
+            cursor: pointer;
+        
+        }
