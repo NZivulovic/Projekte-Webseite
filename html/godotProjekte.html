@@ -23,16 +23,16 @@
 
     <div class="navDiv">
         <ul class="navBarList">
-            <li type="button" class="navBarProjectsP">Projekt 1</li>
-            <li type="button" class="navBarProjectsP">Projekt 2</li>
+            <li type="button" onclick="navBarSelector('projekt1')" class="navBarProjectsP" data-target="projekt1">Projekt 1</li>
+            <li type="button" onclick="navBarSelector('projekt2')" class="navBarProjectsP" data-target="projekt2">Projekt 2</li>
         </ul>
     </div>
 
-    <div class="projektContainer">
-        <div class="projektContent" >
+    <div id="projektContainer">
+        <div id="projekt1" class="projektContainer" style="display: block;">
             <h2 class="projekt1Title">Projekt 1: Slot Machine Demo</h2>
         </div>
-        <div class="projektContent" >
+        <div id="projekt2" class="projektContainer" style="display: none;">
             <h2 class="projekt2Title">Projekt 2: Test</h2>
         </div>
 

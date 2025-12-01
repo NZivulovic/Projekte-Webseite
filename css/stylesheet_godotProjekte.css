@@ -8,9 +8,7 @@
     font-size: xxx-large;
     color: rgb(98, 137, 204)
 }
-    .hide{
-        display: none !important;
-    }
+
     .projekt1Title{
         display: block;
         color: white;
@@ -22,7 +20,6 @@
         text-align: center;
     }
  
-    
 
 /* body */
 
