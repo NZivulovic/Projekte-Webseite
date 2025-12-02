@@ -1,66 +1,99 @@
-
 /* All */
 
-* {font-family: sans-serif;}
-h5 {font-size: 225%; }
-h4 {margin-top: 0px;padding-bottom: 7.5px;}
-h3 {margin-bottom: 0px; font-size: 125%;}
-h1 {font-size: 600%; margin-bottom: 0; margin-top: 0; margin-left: 0;}
-pre {margin: 0; padding: 0;}
-video {object-fit:contain; padding-top: 10px; padding-bottom: 10px; display: grid;}
+* {
+    font-family: sans-serif;
+}
+
+h5 {
+    font-size: 225%;
+}
+
+h4 {
+    margin-top: 0px;
+    padding-bottom: 7.5px;
+}
+
+h3 {
+    margin-bottom: 0px;
+    font-size: 125%;
+}
+
+h1 {
+    font-size: 600%;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+pre {
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    object-fit: contain;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+}
 
 
 
 /* Nav buttons */
 
-.dropdownNav{
+.dropdownNav {
     background-color: rgb(187, 187, 187);
     margin-left: 720px;
-    
-    position:absolute;
-    display:inline-block;
-    
-}
-    .dropdownButtonNav{
-        font-size: 24px;
-        padding: 16px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        border: 0;
-        cursor:pointer;
-        
-        
-    }
-        .dropdownButtonNav:hover{
-            background-color: #d3d3fd;
-            
-        
-        }
-            .dropdownContent{
-                display: none;
-                position: fixed;
-                margin-bottom: 100px;
-                max-width: fit-content;
-                /* text-wrap: inherit; */
-                
-            }
-            .show{
-                position: absolute;
-                display: grid;
-                margin-top: 2.5px;
-                
-                /* height: 50px; */
-                /* width: 250px; */
-                /* text-indent: -100px; */
-                
-                
-            }
 
-.navLink:visited{
+    position: absolute;
+    display: inline-block;
+
+}
+
+.dropdownButtonNav {
+    font-size: 24px;
+    padding: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 0;
+    cursor: pointer;
+
+
+}
+
+.dropdownButtonNav:hover {
+    background-color: #d3d3fd;
+
+
+}
+
+.dropdownContent {
+    display: none;
+    position: fixed;
+    margin-bottom: 100px;
+    max-width: fit-content;
+    /* text-wrap: inherit; */
+
+}
+
+.show {
+    position: absolute;
+    display: grid;
+    margin-top: 2.5px;
+
+    /* height: 50px; */
+    /* width: 250px; */
+    /* text-indent: -100px; */
+
+
+}
+
+.navLink:visited {
     color: black;
     text-decoration: 0;
 }
-.navLink{
+
+.navLink {
     scale: 85%;
     background-color: rgb(236, 236, 236);
     margin-bottom: 2.5px;
@@ -77,6 +110,6 @@ video {object-fit:contain; padding-top: 10px; padding-bottom: 10px; display: gri
 
 /* Random */
 
-.mainDiv{
+.mainDiv {
     background-color: rgb(187, 187, 187);
 }

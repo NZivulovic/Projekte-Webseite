@@ -1,17 +1,17 @@
 
 // Nav Button "Mehr Infos"
 
-function moreNav(){
+function moreNav() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
-window.onclick = function(event){
-    if (!event.target.matches(".dropdownButtonNav")){
+window.onclick = function (event) {
+    if (!event.target.matches(".dropdownButtonNav")) {
         var dropdowns = document.getElementsByClassName("dropdownContent");
         var i;
-        for (i = 0; i < dropdowns.length; i++){
+        for (i = 0; i < dropdowns.length; i++) {
             var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')){
+            if (openDropdown.classList.contains('show')) {
                 openDropdown.classList.remove('show');
             }
         }
@@ -23,7 +23,7 @@ window.onclick = function(event){
 
 function fetchLastCommitDate(repoName, elementId) {
 
-    const apiUrl = `https://api.github.com/repos/NZivulovic/${repoName}/commits/main`; 
+    const apiUrl = `https://api.github.com/repos/NZivulovic/${repoName}/commits/main`;
 
     fetch(apiUrl)
         .then(response => {
@@ -33,11 +33,11 @@ function fetchLastCommitDate(repoName, elementId) {
             return response.json();
         })
         .then(data => {
-            const commitDateStr = data.commit.committer.date; 
-            
+            const commitDateStr = data.commit.committer.date;
+
             const dateObj = new Date(commitDateStr);
-            
-    
+
+
             const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
             const formattedDate = dateObj.toLocaleDateString('de-DE', options);
 
@@ -48,20 +48,20 @@ function fetchLastCommitDate(repoName, elementId) {
         })
         .catch(error => {
             console.error('Error fetching commit date:', error);
-            
+
             const dateElement = document.getElementById(elementId);
-             if (dateElement) {
+            if (dateElement) {
                 dateElement.textContent = 'Date not available';
             }
         });
 }
 
 fetchLastCommitDate(
-    `Slot-Machine-Demo_Godot-Engine`, 
+    `Slot-Machine-Demo_Godot-Engine`,
     `datumMain1`
 );
 
 fetchLastCommitDate(
-    '2D-Run-n-Gun-Platformer_Cuphead-Clone_Unity-Engine', 
+    '2D-Run-n-Gun-Platformer_Cuphead-Clone_Unity-Engine',
     "datumMain2"
 );
