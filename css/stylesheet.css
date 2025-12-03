@@ -85,13 +85,18 @@ video {
     /* width: 250px; */
     /* text-indent: -100px; */
 
-
 }
+
+.navLink:hover{
+    background-color: #d3d3fd;
+}
+
 
 .navLink:visited {
     color: black;
     text-decoration: 0;
 }
+
 
 .navLink {
     scale: 85%;
@@ -103,7 +108,6 @@ video {
     color: black;
     text-decoration: 0;
 }
-
 
 
 

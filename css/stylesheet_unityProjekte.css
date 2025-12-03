@@ -8,7 +8,7 @@
 .titleMain {
     text-align: center;
     font-size: xxx-large;
-    color: rgb(178, 187, 209)
+    color: rgb(168, 187, 219)
 }
 
 .projekt1Title {
@@ -28,25 +28,24 @@
 
 body {
     display: block;
-    
 
     flex-grow: 1;
 
     margin: 0;
     padding: 0;
 
-    background-color: rgb(44, 50, 60)
+    background-color: rgb(47, 50, 56)
 }
 
 /* navBar */
 
-    /* .navDiv {} */
+/* .navDiv {} */
 
 
 .navBarList {
 
-    display:flex;
-
+    display: flex;
+    
 
     text-align: center;
     justify-content: center;
@@ -63,14 +62,15 @@ body {
 
 
     color: white;
-    background-color: rgb(102, 115, 138)
+    background-color: rgb(143, 153, 171);
+    /* background-color: rgb(109, 117, 130) */
 }
 
 .navBarProjectsP_1 {
 
     min-width:min-content;
     max-width: 8%;
-    
+
     flex-grow: 1;
 
     border-left: 2px solid rgba(54, 61, 74);
@@ -82,13 +82,14 @@ body {
     padding-bottom: 10px;
     padding-top: 10px;
 
-    background-color: rgb(81, 91, 110);
+    background-color: rgb(109, 117, 130);
+    /* background-color: rgb(143, 153, 171); */
     font-size: large;
 }
 
 .navBarProjectsP_1:hover {
 
-    background-color: rgb(96, 108, 131);
+    background-color: rgb(129, 138, 156);
     cursor: pointer;
 
 }
@@ -120,6 +121,7 @@ body {
 
 }
 
+
 /* Content - Showcase Video */
 
 .videoProjekt1{
@@ -133,7 +135,6 @@ body {
 }
 
 /* Content - imgGallery */
-
 .imgGallery{
     display: flex;
     flex-wrap: wrap;

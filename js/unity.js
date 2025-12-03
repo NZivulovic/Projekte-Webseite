@@ -1,4 +1,3 @@
-
 // Projekt Selector navBar
 
 function navBarSelector(targetId) {
@@ -14,9 +13,4 @@ function navBarSelector(targetId) {
   if (targetElement) {
     targetElement.style.display = 'block';
   }
-}
-
-function switchPreview(targetId){
-  
-  
 }
