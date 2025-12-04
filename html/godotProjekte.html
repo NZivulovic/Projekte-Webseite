@@ -37,15 +37,18 @@
             <div>
                 <h2 class="projekt1Title">Projekt 1: Slot Machine Demo</h2>
             </div>
-            <div>
+            <div class="vidDiv">
                 <video id="videoProjekt1" class="videoProjekt1" src="../videos/Timeline 1.mp4" controls></video>
+            </div>
+            <div>
+                <button onclick="resetVideo()" id="resetVideoButton" class="resetVidButton">Reset Video</button>
             </div>
             <div>
                 <h2 class="imagesGalleryHeader">Image Gallery (Horizontal Scroll)</h2>
             </div>
         </div>
         <div class="imgGallery">
-            <div class="galleryItem">
+            <div id="galleryItem" class="galleryItem">
                 <img src="../images/godotProjekte/projekt1/Screenshot_9.png" alt="1" id="image_0" class="imagesGallery"
                     onclick="switchPreview(id)">
                 <img src="../images/godotProjekte/projekt1/Screenshot_1.png" alt="1" id="image_1" class="imagesGallery"
