@@ -1,248 +1,257 @@
 /* All */
 
 * {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 /* title */
 .titleMain {
-    text-align: center;
-    font-size: xxx-large;
-    color: rgb(178, 187, 209)
+  text-align: center;
+  font-size: xxx-large;
+  color: rgb(178, 187, 209);
 }
 
 .projekt1Title {
-    display: block;
-    color: white;
-    text-align: center;
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+.projekt1TitleRepo {
+  display: block;
+  text-align: center;
+  color: rgb(122, 64, 122);
+  margin: 0;
+  padding: 0;
+  text-decoration: 0 underline;
 }
 
 .projekt2Title {
-    display: block;
-    color: white;
-    text-align: center;
+  display: block;
+  color: white;
+  text-align: center;
 }
-
 
 /* body */
 
 body {
-    display: block;
+  display: block;
 
+  flex-grow: 1;
 
-    flex-grow: 1;
+  margin: 0;
+  padding: 0;
 
-    margin: 0;
-    padding: 0;
-
-    background-color: rgb(44, 50, 60)
+  background-color: rgb(44, 50, 60);
 }
 
 /* navBar */
 
 /* .navDiv {} */
 
-
 .navBarList {
+  display: flex;
 
-    display: flex;
+  text-align: center;
+  justify-content: center;
 
+  width: 100%;
 
-    text-align: center;
-    justify-content: center;
+  list-style: none;
+  overflow: hidden;
 
-    width: 100%;
+  margin: 0;
+  padding: 0;
 
-
-    list-style: none;
-    overflow: hidden;
-
-
-    margin: 0;
-    padding: 0;
-
-
-    color: white;
-    background-color: rgb(102, 115, 138)
+  color: white;
+  background-color: rgb(102, 115, 138);
 }
 
 .navBarProjectsP_1 {
+  min-width: min-content;
+  max-width: 8%;
 
-    min-width: min-content;
-    max-width: 8%;
+  flex-grow: 1;
 
-    flex-grow: 1;
+  border-left: 2px solid rgba(54, 61, 74);
+  border-right: 2px solid rgba(54, 61, 74);
 
-    border-left: 2px solid rgba(54, 61, 74);
-    border-right: 2px solid rgba(54, 61, 74);
+  float: left;
 
-    float: left;
+  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 
-    padding: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-
-    background-color: rgb(81, 91, 110);
-    font-size: large;
+  background-color: rgb(81, 91, 110);
+  font-size: large;
 }
 
 .navBarProjectsP_1:hover {
-
-    background-color: rgb(96, 108, 131);
-    cursor: pointer;
-
+  background-color: rgb(96, 108, 131);
+  cursor: pointer;
 }
 
 .navBarProjectsP {
+  max-width: 10%;
+  flex-grow: 1;
 
+  border-right: 2px solid rgba(54, 61, 74);
 
-    max-width: 10%;
-    flex-grow: 1;
+  float: left;
 
-    border-right: 2px solid rgba(54, 61, 74);
+  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 
-    float: left;
-
-
-    padding: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-
-    background-color: rgb(81, 91, 110);
-    font-size: large;
-
+  background-color: rgb(81, 91, 110);
+  font-size: large;
 }
 
 .navBarProjectsP:hover {
-
-    background-color: rgb(96, 108, 131);
-    cursor: pointer;
-
+  background-color: rgb(96, 108, 131);
+  cursor: pointer;
 }
 
 /* Content - Showcase Video */
-.vidDiv {}
+.vidDiv {
+}
 
 .videoProjekt1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: baseline;
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: baseline;
+  min-width: 400px;
+  min-height: 200px;
 
-    min-width: 400px;
-    min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 
-
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-
-    border: 2px solid rgb(102, 115, 138);
+  border: 2px solid rgb(102, 115, 138);
 }
 
 /* resetVidButton */
 
 .resetVidButton {
-    color: white;
+  color: white;
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 
-    position: absolute;
+  position: absolute;
 
-    margin-left: 25%;
-    margin-bottom: 5%;
-    margin-top: 4px;
+  margin-left: 25%;
+  margin-bottom: 5%;
+  margin-top: 4px;
 
-    padding: 10px;
+  padding: 10px;
 
-    border-color: 1px rgb(102, 115, 138);
-    border-radius: 4px;
+  border-color: 1px rgb(102, 115, 138);
+  border-radius: 4px;
 
-    background-color: rgb(129, 144, 171)
+  background-color: rgb(129, 144, 171);
 }
 
 .resetVidButton:hover {
-    cursor: pointer;
-    opacity: 0.8;
-
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 /* Header - imgGallery */
 
 .imagesGalleryHeader {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 
+  margin-left: auto;
+  margin-right: auto;
 
-    margin-left: auto;
-    margin-right: auto;
+  color: white;
 
-    color: white;
+  justify-content: center;
 
-    justify-content: center;
-
-    padding-top: 2rem;
-
-
+  padding-top: 2rem;
 }
-
 
 /* Image Gallery - Div All */
 
 .imgGallery {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: baseline;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: baseline;
 
-    width: 80%;
+  width: 80%;
 
-    outline: solid 1px rgb(102, 115, 138);
+  outline: solid 1px rgb(102, 115, 138);
 
+  margin-bottom: 4rem;
 
-    margin-bottom: 4rem;
-
-    margin-right: 10%;
-    margin-left: 10%;
-
-
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 /* Image Gallery - Every Image  */
 
 .galleryItem {
+  width: 100%;
 
-    width: 100%;
+  display: inline-flex;
 
-    display: inline-flex;
+  justify-content: flex-start;
 
+  overflow: scroll;
 
-    justify-content: flex-start;
-
-
-    overflow: scroll;
-
-    scroll-behavior: smooth;
-
-
+  scroll-behavior: smooth;
 }
 
 /* Image Gallery - Images */
 .imagesGallery {
+  height: 200px;
+  width: 400px;
 
-
-    height: 200px;
-    width: 400px;
-
-
-    outline: solid 1px rgb(102, 115, 138);
-
+  outline: solid 1px rgb(102, 115, 138);
 }
 
 .imagesGallery:hover {
-    cursor: pointer;
-    opacity: 0.8;
+  cursor: pointer;
+  opacity: 0.8;
+}
 
+/* mehrInfoProjekt - All */
+
+.mehrInfoProjekt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  width: 80%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  color: white;
+
+  justify-content: center;
+}
+
+.mehrInfoProjektDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: baseline;
+
+  width: 80%;
+
+  outline: solid 1px rgb(102, 115, 138);
+
+  margin-bottom: 4rem;
+
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.mehrInfoProjektHeader {
+  color: white;
 }

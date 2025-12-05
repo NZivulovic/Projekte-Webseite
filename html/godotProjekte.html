@@ -1,95 +1,63 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Godot Projekte</title>
 
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet_godotProjekte.css" />
+  </head>
 
-    <link rel="stylesheet" type="text/css" href="../css/stylesheet_godotProjekte.css">
-
-</head>
-
-<body>
+  <body>
     <!-- Header / Title -->
     <header>
-        <div>
-            <h1 class="titleMain">Godot Engine (GDScript) - Projekte</h1>
-        </div>
-
+      <div>
+        <h1 class="titleMain">Godot Engine (GDScript) - Projekte</h1>
+      </div>
     </header>
     <!-- navBar -->
     <div class="navDiv">
-        <ul class="navBarList">
-            <li type="button" onclick="navBarSelector('projekt1')" class="navBarProjectsP_1" data-target="projekt1">Slot
-                Machine Demo</li>
-            <!-- <li type="button" onclick="navBarSelector('projekt2')" class="navBarProjectsP" data-target="projekt2">
-                Projekt 2</li> -->
-
-        </ul>
+      <ul class="navBarList">
+        <li type="button" onclick="navBarSelector('projekt1')" class="navBarProjectsP_1" data-target="projekt1">Slot Machine Demo</li>
+      </ul>
     </div>
     <!-- Projekte Container Whole -->
     <div id="projektContainer">
-        <div id="projekt1" class="projektContainer">
-            <div>
-                <h2 class="projekt1Title">Projekt 1: Slot Machine Demo</h2>
-            </div>
-            <div class="vidDiv">
-                <video id="videoProjekt1" class="videoProjekt1" src="../videos/Timeline 1.mp4" controls></video>
-            </div>
-            <div>
-                <button onclick="resetVideo()" id="resetVideoButton" class="resetVidButton">Reset Video</button>
-            </div>
-            <div>
-                <h2 class="imagesGalleryHeader">Image Gallery (Horizontal Scroll)</h2>
-            </div>
+      <div id="projekt1" class="projektContainer">
+        <div>
+          <h2 class="projekt1Title">Projekt 1: Slot Machine Demo</h2>
+          <h2><a class="projekt1TitleRepo" href="https://github.com/NZivulovic/Slot-Machine-Demo_Godot-Engine">Repository</a></h2>
         </div>
-        <div class="imgGallery">
-            <div id="galleryItem" class="galleryItem">
-                <img src="../images/godotProjekte/projekt1/Screenshot_9.png" alt="1" id="image_0" class="imagesGallery"
-                    onclick="switchPreview(id)">
-                <img src="../images/godotProjekte/projekt1/Screenshot_1.png" alt="1" id="image_1" class="imagesGallery"
-                    onclick="switchPreview(id)">
-                <img src="../images/godotProjekte/projekt1/Screenshot_3.png" alt="1" id="image_2" class="imagesGallery"
-                    onclick="switchPreview(id)">
-                <img src="../images/godotProjekte/projekt1/Screenshot_4.png" alt="1" id="image_3" class="imagesGallery"
-                    onclick="switchPreview(id)">
-                <img src="../images/godotProjekte/projekt1/Screenshot_2.png" alt="1" id="image_4" class="imagesGallery"
-                    onclick="switchPreview(id)">
-                <img src="../images/godotProjekte/projekt1/Screenshot_5.png" alt="1" id="image_5" class="imagesGallery"
-                    onclick="switchPreview(id)">
-                <img src="../images/godotProjekte/projekt1/Screenshot_7.png" alt="1" id="image_6" class="imagesGallery"
-                    onclick="switchPreview(id)">
-                <img src="../images/godotProjekte/projekt1/Screenshot_8.png" alt="1" id="image_7" class="imagesGallery"
-                    onclick="switchPreview(id)">
-            </div>
+        <div class="vidDiv">
+          <video id="videoProjekt1" class="videoProjekt1" src="../videos/godotProjekte/projekt1/Timeline 1.mp4" controls></video>
         </div>
+        <div>
+          <button onclick="resetVideo()" id="resetVideoButton" class="resetVidButton">Reset Video</button>
+        </div>
+        <div>
+          <h2 class="imagesGalleryHeader">Image Gallery (Horizontal Scroll)</h2>
+        </div>
+      </div>
+      <!-- imgGallery -->
+      <div class="imgGallery">
+        <div id="galleryItem" class="galleryItem">
+          <img src="../images/godotProjekte/projekt1/Screenshot_9.png" alt="1" id="image_0" class="imagesGallery" onclick="switchPreview(id)" />
+          <img src="../images/godotProjekte/projekt1/Screenshot_1.png" alt="1" id="image_1" class="imagesGallery" onclick="switchPreview(id)" />
+          <img src="../images/godotProjekte/projekt1/Screenshot_3.png" alt="1" id="image_2" class="imagesGallery" onclick="switchPreview(id)" />
+          <img src="../images/godotProjekte/projekt1/Screenshot_4.png" alt="1" id="image_3" class="imagesGallery" onclick="switchPreview(id)" />
+          <img src="../images/godotProjekte/projekt1/Screenshot_2.png" alt="1" id="image_4" class="imagesGallery" onclick="switchPreview(id)" />
+          <img src="../images/godotProjekte/projekt1/Screenshot_5.png" alt="1" id="image_5" class="imagesGallery" onclick="switchPreview(id)" />
+          <img src="../images/godotProjekte/projekt1/Screenshot_7.png" alt="1" id="image_6" class="imagesGallery" onclick="switchPreview(id)" />
+          <img src="../images/godotProjekte/projekt1/Screenshot_8.png" alt="1" id="image_7" class="imagesGallery" onclick="switchPreview(id)" />
+        </div>
+      </div>
     </div>
-
-    <!-- <div id="projekt2" class="projektContainer" style="display: none;">
-            <h2 class="projekt2Title">Projekt 2: Test</h2>
-        </div> -->
-
-
-
+    <h2 class="mehrInfoProjekt">Mehr über das Projekt:</h2>
+    <div class="mehrInfoProjektDiv">
+      <h3 class="mehrInfoProjektHeader">Text:</h3>
     </div>
-
-
-
-
-
-
-    <footer>
-
-
-
-    </footer>
-
-
-</body>
-<script src="../js/godot.js"></script>
-
+    <footer></footer>
+  </body>
+  <script src="../js/godot.js"></script>
 </html>
